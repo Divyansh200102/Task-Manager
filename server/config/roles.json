@@ -1,0 +1,36 @@
+{
+  "roles": [
+    {
+      "name": "admin",
+      "permissions": [
+        "create_task",
+        "read_task",
+        "update_task",
+        "delete_task",
+        "assign_task",
+        "complete_task",
+        "manage_users",
+        "create_team",
+        "delete_team",
+        "getAllTeams"
+      ]
+    },
+    {
+      "name": "manager",
+      "permissions": [
+        "create_task",
+        "read_task",
+        "update_task",
+        "assign_task",
+        "complete_task",
+        "view_team_tasks",
+        "create_team",
+        "update_team"
+      ]
+    },
+    {
+      "name": "employee",
+      "permissions": ["read_task", "update_task", "complete_task"]
+    }
+  ]
+}
